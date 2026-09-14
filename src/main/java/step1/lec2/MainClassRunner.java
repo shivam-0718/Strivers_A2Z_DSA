@@ -19,7 +19,7 @@ package step1.lec2;
  * This rule is optional, and it is only applicable to specific pattern problems
  * 1. Observe symmetry
  */
-public class Main {
+public class MainClassRunner {
     public static void main(String[] args) {
 
     }
