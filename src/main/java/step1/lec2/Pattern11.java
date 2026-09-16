@@ -1,5 +1,8 @@
 package step1.lec2;
 
+/**
+ * Link: https://www.naukri.com/code360/problems/binary-number-triangle_6581890
+ */
 public class Pattern11 {
     // approach if starting from 0
     public void pattern(int n){
