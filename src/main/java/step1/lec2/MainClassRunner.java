@@ -21,6 +21,8 @@ package step1.lec2;
  */
 public class MainClassRunner {
     public static void main(String[] args) {
-
     }
 }
+/**
+ * remaining problems: 20, 21, and 22 will be done later after completion of easy problems as per strivers sheet
+ */
