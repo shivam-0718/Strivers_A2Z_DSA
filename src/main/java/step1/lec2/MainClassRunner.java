@@ -1,7 +1,8 @@
 package step1.lec2;
 
 /**
- * This is Striver's A2Z DSA Course Step 1.2 -> Patterns
+ * This is Striver's A2Z DSA Course Step 1.2 and Step 1.3 combined -> Patterns
+ * For this, we will consider it as step 1.2.
  * Here you can call pattern classes and test the running of the same
  * by calling the pattern classes and invoking the same in main()
  * present in this class.
