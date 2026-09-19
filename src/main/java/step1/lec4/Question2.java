@@ -5,7 +5,7 @@ package step1.lec4;
  * Link: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
  * Link2: https://leetcode.com/problems/reverse-integer/
  */
-public class Problem2 {
+public class Question2 {
     // coding ninjas problem
     public static long reverseNumber(long n) {
         long revNumber = 0L;
