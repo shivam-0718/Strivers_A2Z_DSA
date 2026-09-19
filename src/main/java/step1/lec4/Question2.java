@@ -6,7 +6,7 @@ package step1.lec4;
  * Link2: https://leetcode.com/problems/reverse-integer/
  */
 public class Question2 {
-    // coding ninjas problem
+    // coding ninjas question
     public static long reverseNumber(long n) {
         long revNumber = 0L;
         while(n > 0) {
@@ -17,7 +17,7 @@ public class Question2 {
         return revNumber;
     }
 
-    // leetcode problem
+    // leetcode question
     public static int reverse(int x) {
         long rev = 0; //there is a chance that reversing a number can exceed the int range
         // so storing in long variable
