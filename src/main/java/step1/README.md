@@ -35,3 +35,27 @@ To solve any pattern problem, you must follow these below steps:
 2. For the outer loop, count the number of rows.
 3. For the inner loop, count the number of columns and find out a relation between rows and columns.
 4. Perform computation as specified in the exercise and print accordingly.
+
+## 1.3. Java Collections
+
+Java Collections Framework provides a unified set of interfaces and classes for storing and manipulating groups of objects efficiently. It's essential for data handling in Java applications.
+
+- **Collection API:** Interfaces (`List`, `Set`, `Map`,etc.) that define what operations collections should support.
+- **Collections Class:** Utility class with static methods for sorting, searching, and manipulating collections.
+- **Collections Framework:**  Complete ecosystem including interfaces, implementations (ArrayList, HashMap), and utility methods.
+
+The flow diagram of Java Collections Framework is given in the figure below:
+
+![Java Collections Framework](./lec3/CollectionFramework.png)
+
+While Java provides built-in collection implementations, understanding two key aspects is essential:
+
+- **Internal Implementation:** How Java's data structures work under the hood.
+- **Custom Implementation:** Building data structures from scratch (crucial for interviews and beneficial for understanding data structures).
+
+> For Java developers, first master how built-in data structures work internally. Then apply this knowledge to implement these same structures from scratch.
+
+### Resources for Java Collections:
+
+- [Java Collections Framework and implementation of each data structure](https://www.youtube.com/watch?v=9ogGan-R1pc&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=43)
+- [Kunal Kushwaha DSA Playlist (if you want to understand the logic behind Collection implemented classes)](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
