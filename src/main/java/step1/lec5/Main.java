@@ -1,4 +1,4 @@
-package step1.lec4;
+package step1.lec5;
 /**
  * This is Striver's A2Z DSA Course Step 1.4 -> Basic Maths
  * Here you can call the classes and test the running of the same
@@ -6,7 +6,7 @@ package step1.lec4;
  */
 public class Main {
     public static void main(String[] args) {
-
+        Question6.findTheFactors(36);
     }
 }
 /**
