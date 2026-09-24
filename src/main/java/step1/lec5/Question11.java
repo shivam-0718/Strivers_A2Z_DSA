@@ -1,11 +1,11 @@
-package step1.lec4;
+package step1.lec5;
 
 /**
  * Write a program to find GCD / HCF between 2 numbers
  * Link: https://www.naukri.com/code360/problems/hcf-and-lcm_840448
  */
 
-public class Question4 {
+public class Question11 {
     // brute-force approach
     public static int gcd(int n1, int n2) {
         int gcd = 1;
