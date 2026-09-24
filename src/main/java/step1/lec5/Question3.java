@@ -1,11 +1,11 @@
-package step1.lec4;
+package step1.lec5;
 
 /**
  * Write a program to reverse the digits of a given number
  * Link: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
  * Link2: https://leetcode.com/problems/reverse-integer/
  */
-public class Question2 {
+public class Question3 {
     // coding ninjas question
     public static long reverseNumber(long n) {
         long revNumber = 0L;
