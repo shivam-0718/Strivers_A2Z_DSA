@@ -1,4 +1,4 @@
-package step1.lec5;
+package step1.lec7;
 
 /**
  * Write a program to check whether a given number is palindrome or not.

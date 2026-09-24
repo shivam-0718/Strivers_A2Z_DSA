@@ -1,4 +1,4 @@
-package step1.lec5;
+package step1.lec7;
 
 /**
  * Write a program to find whether a given number is Armstrong number or not

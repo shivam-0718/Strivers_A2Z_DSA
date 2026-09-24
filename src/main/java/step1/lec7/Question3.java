@@ -1,4 +1,4 @@
-package step1.lec5;
+package step1.lec7;
 
 /**
  * Write a program to reverse the digits of a given number
