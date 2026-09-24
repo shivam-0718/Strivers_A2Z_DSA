@@ -1,4 +1,4 @@
-package step1.lec4;
+package step1.lec5;
 
 /**
  * Write a program to find whether a given number is Armstrong number or not
@@ -7,7 +7,7 @@ package step1.lec4;
  *
  * Link: https://www.naukri.com/code360/problems/check-armstrong_589
  */
-public class Question5 {
+public class Question7 {
     public static boolean isArmstrong (int num) {
         int n = num;
         int sum = 0;
