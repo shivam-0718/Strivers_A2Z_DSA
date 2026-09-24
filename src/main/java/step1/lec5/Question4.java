@@ -1,4 +1,4 @@
-package step1.lec4;
+package step1.lec5;
 
 /**
  * Write a program to check whether a given number is palindrome or not.
@@ -9,7 +9,7 @@ package step1.lec4;
  * Link: https://www.naukri.com/code360/problems/palindrome-number_624662
  * Link2: https://leetcode.com/problems/palindrome-number/description/
  */
-public class Question3 {
+public class Question4 {
     // coding ninjas question
     public static boolean palindrome(int n) {
         int num = n;
