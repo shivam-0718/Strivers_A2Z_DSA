@@ -1,15 +1,12 @@
 package step1.lec5;
 /**
- * This is Striver's A2Z DSA Course Step 1.4 -> Basic Maths
+ * This is Striver's A2Z DSA Course Step 1.5 (now Step 1.7 as per new UI) -> Basic Maths
  * Here you can call the classes and test the running of the same
  * by calling the specific method of the class and running the same in main()
  */
 public class Main {
     public static void main(String[] args) {
-        Question6.findTheFactors(36);
+
     }
 }
-/**
- * remaining medium / hard problems of this substep will be done after
- * completion of easy problems as per Striver's sheet.
- */
+
