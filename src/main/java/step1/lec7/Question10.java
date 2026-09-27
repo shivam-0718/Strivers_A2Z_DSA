@@ -2,6 +2,7 @@ package step1.lec7;
 
 /**
  * Write a program to find the number of prime numbers till N
+ * Link: https://leetcode.com/problems/count-primes/description/
  */
 public class Question10 {
     public static int countPrimeNosTillN(int n) {

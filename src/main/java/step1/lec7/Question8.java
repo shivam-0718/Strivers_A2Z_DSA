@@ -6,6 +6,7 @@ import java.util.Collections;
 /**
  * Write a program to find whether a given number is a perfect number or not
  * Note: A number is said to be a perfect number <=> whose proper divisors (excluding the number itself) add up to the number itself.
+ * Link: https://leetcode.com/problems/perfect-number/
  */
 public class Question8 {
     // brute-force
