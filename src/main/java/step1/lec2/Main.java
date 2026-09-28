@@ -20,10 +20,8 @@ package step1.lec2;
  * This rule is optional, and it is only applicable to specific pattern problems
  * 1. Observe symmetry
  */
-public class MainClassRunner {
+public class Main {
     public static void main(String[] args) {
+
     }
 }
-/**
- * remaining problems: 20, 21, and 22 will be done later after completion of easy problems as per strivers sheet
- */
