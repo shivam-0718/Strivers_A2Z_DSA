@@ -20,7 +20,7 @@ public class Question1 {
             if(visited[nums[i]]) {
                 continue;
             }
-            int count = 0; // local counter of the nunmber nums[i] selected
+            int count = 0; // local counter of the number nums[i] selected
 
             for (int j = 0; j < n; j++) {
                 if(nums[i] == nums[j]) {
@@ -40,6 +40,9 @@ public class Question1 {
         }
         return element;
     }
+
+    // Time complexity for brute-force -> O(N^2)
+    // Space complexity for brute-force -> O(N)
 
     // optimal solution
     public static int mostFreqElement(int[] nums) {
@@ -70,5 +73,8 @@ public class Question1 {
         }
         return maxEle;
     }
+
+    // Time complexity for optimal -> O(N)
+    // Space complexity for optimal -> O(N)
 
 }
