@@ -34,6 +34,9 @@ public class Question1 {
 
     }
 
+    // Time complexity for brute-force -> O(N)
+    // Space complexity for brute-force -> O(N)
+
     // optimal solution
     public static void reverseAString(List<Character> s) {
         int i = 0;
@@ -49,4 +52,7 @@ public class Question1 {
 
         System.out.println(s);
     }
+
+    // Time complexity for optimal -> O(N)
+    // Space complexity for optimal -> O(1)
 }
