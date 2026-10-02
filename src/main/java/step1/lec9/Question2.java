@@ -97,5 +97,4 @@ public class Question2 {
 
         return secondMaxEle;
     }
-
 }
