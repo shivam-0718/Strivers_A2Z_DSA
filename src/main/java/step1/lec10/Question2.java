@@ -36,4 +36,7 @@ public class Question2 {
         return true;
     }
 
+    // time complexity of optimal approach: O(N)
+    // space complexity of optimal approach: O(1)
+
 }
