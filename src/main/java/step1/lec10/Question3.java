@@ -45,4 +45,7 @@ public class Question3 {
         return s.substring(i, j + 1);
     }
 
+    // time complexity: O(N)
+    // space complexity: O(1)
+
 }
