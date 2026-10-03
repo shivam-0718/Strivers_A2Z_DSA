@@ -51,6 +51,6 @@ public class Question6 {
         return sToS.contains(goal);
     }
 
-    // time complexity of brute-force approach: O(N) , because checking for a substring in s + s is linear in time.
-    // space complexity of brute-force approach: O(N).
+    // time complexity of optimal approach: O(N) , because checking for a substring in s + s is linear in time.
+    // space complexity of optimal approach: O(N).
 }
