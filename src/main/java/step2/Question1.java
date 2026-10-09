@@ -33,4 +33,5 @@ public class Question1 {
         }
         return nums;
     }
+    // Time Complexity of Selection Sort: O(N^2) [Worst, Average, Best case scenario]
 }
