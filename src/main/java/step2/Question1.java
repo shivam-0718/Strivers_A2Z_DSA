@@ -7,6 +7,12 @@ package step2;
  * elements in the array.
  */
 public class Question1 {
+    /**
+     * Selection Sort logic: selecting the minimum from the array by finding minIndex and swap nums[minIndex] with nums[i]
+     * This needs to be done throughout the array
+     * @param nums
+     * @return nums
+     */
     public static int[] selectionSort(int[] nums) {
         int n = nums.length;
         // traversing from 0 till n-2 from outer array
