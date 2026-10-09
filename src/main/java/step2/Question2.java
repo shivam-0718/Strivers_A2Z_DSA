@@ -17,15 +17,25 @@ public class Question2 {
         int n = nums.length;
         // traversing from n - 1 till 1 from outer array
         for (int i = n - 1; i >= 1; i--) {
+            boolean didSwap = false;
+
             // traversing from 0 till i - 1 in inner array
             for (int j = 0; j <= i - 1; j++) {
                 if(nums[j] >= nums[j + 1]) {
                     int temp = nums[j];
                     nums[j] = nums[j + 1];
                     nums[j + 1] = temp;
+                    didSwap = true;
                 }
+            }
+
+            // if there is no swap of elements, then it will break out of loop
+            if (didSwap == false) {
+                break;
             }
         }
         return nums;
     }
+    // Time Complexity of Bubble Sort: O(N^2) [Worst, Average case scenario]
+    // For best case scenario, time complexity of Bubble Sort: O(N) [if array is already sorted]
 }
