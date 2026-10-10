@@ -67,4 +67,27 @@ public class Question4 {
         // 2nd way: convert the arraylist into array using stream API concept
         return list.stream().mapToInt(i -> i).toArray();
     }
+
+    /**
+     * <h2>Time Complexity: O(N log N)</h2>
+     * <ol>
+     *   <li><b>Divide</b> — the array is split in half at each step, giving
+     *       {@code log2(N)} levels of recursion. (Splitting into 10 parts
+     *       instead would give {@code log10(N)} levels.)</li>
+     *   <li><b>Merge</b> — at every level, merging touches all N elements
+     *       once, so each level costs {@code O(N)}.</li>
+     *   <li><b>Total</b> — {@code log2(N)} levels × {@code O(N)} per level
+     *       = {@code O(N log N)}.</li>
+     * </ol>
+     * <p>
+     * The cost is the same in the best, average and worst case, because the
+     * split does not depend on the order of the data.
+     *
+     * <h2>Space Complexity: O(N)</h2>
+     * <p>
+     * A temporary array is used while merging. The recursion stack adds
+     * {@code O(log N)}, which is smaller than N. Merge Sort is therefore
+     * <b>not in-place</b>, but it is <b>stable</b>.
+     *
+     */
 }
