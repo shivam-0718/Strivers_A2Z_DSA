@@ -11,6 +11,12 @@ import java.util.List;
  * elements in the array.
  */
 public class Question4 {
+    /**
+     * Merge Sort logic: Divide the array into two halves until each part has one element,
+     * then merge the sorted halves back together in order.
+     * Divide → sort each half (recursion) → merge.
+     * Time: O(n log n) in all cases | Space: O(n) for the temp array | Stable
+     */
     public static int[] mergeSort(int[] nums) {
         return mergeSort(nums, 0, nums.length - 1);
     }
