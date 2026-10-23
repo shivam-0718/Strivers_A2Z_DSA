@@ -49,5 +49,7 @@ public class Question4 {
         }
         return answer;
     }
+    // Time Complexity: O(N×M)
+    // Space Complexity: O(1) (as not considering extra space)
 }
 
